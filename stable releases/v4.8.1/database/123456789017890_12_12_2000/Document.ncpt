@@ -1,0 +1,20 @@
+
+    |> Student's Name              :> DVFFV
+    |> Class                       :> Passed
+    |> Section                     :> NIL
+    |> Roll Number                 :> 11
+    |> Father's Name               :> BDGF
+    |> Mother's Name               :> FGDH
+    |> Gender(M/F)                 :> Male
+    |> Blood Group                 :> AB+
+    |> Admission Number            :> 7890
+    |> Admission Date(DD/MM/YYYY)  :> 12/12/2018
+    |> Date of Birth(DD/MM/YYYY)   :> 12/12/2000
+    |> Address                     :> Fegw
+    |> Category(SC/ST/OBC/GENERAL) :> GENERAL
+    |> Phone Number                :> 3223232323
+    |> Email ID                    :> dfsgjh@fdhj.com
+    |> Height(in Centimeters)      :> 123 cm
+    |> Weight(in Kilograms)        :> 40 kg
+    |> Student's Unique ID         :> 123456789017890
+    |> BMI(Body Mass Index)        :> bmi (OBESE)

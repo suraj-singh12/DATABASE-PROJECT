@@ -1,0 +1,22 @@
+
+    |> Student's Name              :> Ook
+    |> Class                       :> Passed Out
+    |> Section                     :> NIL
+    |> Roll Number                 :> 1221
+    |> Father's Name               :> Thik
+    |> Mother's Name               :> Hai
+    |> Gender(M/F)                 :> Male
+    |> Blood Group                 :> AB+
+    |> Admission Number            :> 9876
+    |> Admission Date(DD/MM/YYYY)  :> 12/12/2019
+    |> Date of Birth(DD/MM/YYYY)   :> 12/12/2000
+    |> Address                     :> Add Dres
+    |> Category(SC/ST/OBC/GENERAL) :> GENERAL
+    |> Phone Number                :> 9999999999
+    |> Email ID                    :> edfdcdd@fd.com
+    |> Height(in Centimeters)      :> 100 cm
+    |> Weight(in Kilograms)        :> 100 kg
+    |> Student's Unique ID         :> 111111111119876
+    |> BMI(Body Mass Index)        :> bmi (OBESE)
+    |> Result of 10th(in %age)     :> 99 %
+    |> Result of 12th(in %age)     :> 99 %

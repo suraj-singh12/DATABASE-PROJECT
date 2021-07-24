@@ -1,0 +1,54 @@
+@echo off
+    //it is used to ignore command paths
+
+copy "sample\sample.docx"
+   //it copy the sample.docx file to the current directory fom sample directory
+
+set /p name=<fname.txt
+    //here i take a variable 'name' which holds the content of fname.txt file which contain the file name
+
+ren "sample.docx" "%name%"
+  //here the file is renamed to file name
+
+move "%name%" "BMI\"
+   //here the docx file is moved to bmi folder
+
+clip < "temp.txt"
+    //its a clip command so that the content for the word doc. is cliped to clip board
+
+del /f/q "fname.txt"
+   //deleting fname.txt
+
+del /f/q "temp.txt"
+    //deleting temp.txt
+
+copy "word.vbs" "BMI\"
+     //copying the word.vbs file to bmi folder
+
+cd BMI
+     //now the bmi folder is default directory for all commands
+
+start /min %name%
+    //here the ms doc file is start in minimized mode
+
+:start
+    
+ren %name% %name%
+     //here i named file to same name to check that it is properly opened or not
+
+IF ERRORLEVEL = 1 GOTO end
+    //if the file is opened completely then the file would not be renamed. and gives a error. ie error level 1 and and the flow of control would be transferred to end otherwise to start and the process continues untill the file is open completely
+
+GOTO start
+:end
+
+start word.vbs
+ //starts word.vbs which contain command to operates the keyboard key likes ctrl + v  to paste the clipboard
+
+timeout 1
+    //it takes a break of 1 sec to wait so that the commands of word.vbs comes in action otherwise it will be deleted without running in next step..
+
+del /f/q "word.vbs"
+   //it is the next step to delete word.vbs
+
+exit   //batch command exits....

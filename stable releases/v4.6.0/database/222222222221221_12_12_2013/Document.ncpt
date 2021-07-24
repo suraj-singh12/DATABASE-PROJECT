@@ -1,0 +1,20 @@
+
+    |> Student's Name              :> Not nulla
+    |> Class                       :> 1
+    |> Section                     :> A
+    |> Roll Number                 :> 12
+    |> Father's Name               :> Name1
+    |> Mother's Name               :> Name2
+    |> Gender(M/F)                 :> Male
+    |> Blood Group                 :> O-[
+    |> Admission Number            :> 1221
+    |> Admission Date(DD/MM/YYYY)  :> 12/12/2019
+    |> Date of Birth(DD/MM/YYYY)   :> 12/12/2013
+    |> Address                     :> Somthing To Somewhere
+    |> Category(SC/ST/OBC/GENERAL) :> GENERAL
+    |> Phone Number                :> 1234567891j
+    |> Email ID                    :> anything.com
+    |> Height(in Centimeters)      :> 120 cm
+    |> Weight(in Kilograms)        :> 98 kg
+    |> Student's Unique ID         :> 222222222221221
+    |> BMI(Body Mass Index)        :> bmi (OBESE)

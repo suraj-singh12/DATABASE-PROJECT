@@ -1,0 +1,20 @@
+database system should copy "whole folder along with files" of the student whose details are being modified by the name of folder as 
+eg.111111111111111_12_12_2012_old
+
+   and one option to recover lost data 
+   and this will take Uid_dob and concatenate _old to it and check whether psswrd is correct by matching psswrd in that directory. then should recover it.
+
+data copy should be kept untill program terminates and after that delete the _old files along with folder , if terminates properly.
+
+
+1.reload from destination using batch, the dbms_proj, after once data is entered & then let the user proceed.
+2. console dimensions.....to be set for any platform
+3.Allow To Create a Backup_of_data
+4.stick to cout and write to file the system information using msinfo32
+or give n option to check system info in an another style
+
+5. create a flash screen which says welcome to database and its new features.... slowly using loop() and sleep()
+	create a new program for this ... and launch it using hidden .bat file from main program....
+ when this welcome program launches , at the last ask whether to splash at next or every launch or not.... if y then ok,,,,, else if n then dlt move that program using main prog to another new folder and trunc() the bat file and write exit or empty it so that the welcome with featuresprog doesn't launches...... 
+
+also y and n should only be the valid choice in this..... for yes and no

@@ -1,0 +1,20 @@
+
+    |> Student's Name              :> Gfjd
+    |> Class                       :> 1
+    |> Section                     :> A
+    |> Roll Number                 :> 3124
+    |> Father's Name               :> G
+    |> Mother's Name               :> Rt
+    |> Gender(M/F)                 :> Male
+    |> Blood Group                 :> O-
+    |> Admission Number            :> 6666
+    |> Admission Date(DD/MM/YYYY)  :> 12/12/2018
+    |> Date of Birth(DD/MM/YYYY)   :> 12/12/1998
+    |> Address                     :> Fg
+    |> Category(SC/ST/OBC/GENERAL) :> GENERAL
+    |> Phone Number                :> 3443344343
+    |> Email ID                    :> rftrts@ffdrwe.com
+    |> Height(in Centimeters)      :> 129 cm
+    |> Weight(in Kilograms)        :> 98 kg
+    |> Student's Unique ID         :> 999999999996666
+    |> BMI(Body Mass Index)        :> bmi (OBESE)

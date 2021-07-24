@@ -1,0 +1,103 @@
+----------------------------------------------------------------------------------------------------
+				IN PROGRAM
+if file is in the current working directory
+then filename else filepath e.g. "%userprofile%\\desktop\\new_dir\\filename.bat"
+
+TO DELETE A FILE
+system("del /f /q filename");
+erase /f /q filename
+
+TO DELETE A DIRECTORY
+system("rmdir "dir_name");
+		or
+remove(filename);
+
+TO PAUSE THE CONSOLE FOR SOME MOMENTS
+system("timeout /t 5");	//where /t specifies time & '5' is the no_of_sec to pause
+TO PAUSE CONSOLE UNTILL THE USER PRESSES ANY KEY
+system("pause");
+system("timeout /t -1");
+
+TO CLEAR THE CONSOLE SCREEN
+system("cls");
+
+TO CALL ANY PROGRAM OR A FILE FROM SOURCE_CODE_FILE
+ShellExecute(NULL,"open","file_name",NULL,NULL,SW_HIDE);	//SW_HIDE makes it to work in backgound
+
+TO SET FILE ATTRIBUTES
+ 	TO HIDE A FILE
+	system("attrib +h filename");
+	TO HIDE A FILE PERMANENTLY(LIKE SYSTEM FILES)
+	system("attrib +h +s filename");
+	TO UNHIDE A FILE
+	system("attrib -h filename");
+	TO UNHIDE A FILE(A SYSTEM FILE)
+	system("attrib -s -h filename");
+
+//REMEMBER: a file or a folder cant be deleted if attributes are +s +h 
+		if its a file then the content of that file cant be altered.
+
+TO PRODUCE SOUNDS OF DIFFERENT FREQUENCIES
+Beep(frequence,wavelength);
+eg. Beep(4900,210);
+
+OTHER FUNCTIONS CAN BE FOUND IN PROGRAM
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+				IN WINDOWS CMD 
+TO COPY A FILE TO ANOTHER LOCATION
+xcopy "filename" "destination"
+
+TO COPY A FOLDER ALONGWITH ITS ALL CONTENT TO ANOTHER LOCATION
+xcopy "source" "destination" /E /H /K
+
+/E - copies folders and subfolders including empty ones
+/H - copies hidden and system files also
+/K - copies atributes.
+/O - copies file ownership and ACL
+/X - copies file audit settings (implies /O)
+
+TO MOVE A FOLDER TO ANOTHER LOCATION 
+move "thisfolder" to "thisone"
+
+TO REDIRECT THE OUTPUTOF A CMD COMMAND TO TEXT FILE
+command > filename.txt
+eg. dir > dirnames.txt
+
+TO DELETE A FILE
+DEL filename
+
+TO DELETE A FOLDER
+rmdir foldername
+
+TO CREATE A FILE
+type nul > filename
+
+TO SEARCH ONLY PARTICULAR TYPE OF FILES
+dir *.format
+
+eg 
+dir *.exe
+
+TO CHANGE THE FORMAT OF SAME FORMAT FILES
+rename *.format *.newformat
+
+eg.
+rename *.jpeg *.png
+if the file does not already have a format then-
+rename *. *.newformat
+to assign new format to every type of file
+rename * *.newformat
+
+TO GET WHOLE STRUCTURE OF A DRIVE (alonwith filenames)
+cd\
+driveSymbol:
+tree /F > tree.rtf
+
+then take the tree.rtf file later open it using ms word (choose dos style when prompts)
+
+eg:
+cd\
+D:
+tree /F > tree.rtf
+-------------------------------------------------------------------------------------------------------

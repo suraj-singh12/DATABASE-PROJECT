@@ -1,0 +1,50 @@
+THIS IS STUDENT DATABASE MANAGER SOFTWARE CREATED BY SURAJ SINGH
+
+NOTE:"database" folder is still present in this directory but is hidden(+s +h) as program does this when it runs, to keep data secured.
+
+it contains all developing versions of program
+"Redefined v4.0.1.cpp" is the final version
+
+
+			MOST USED CONSOLE COMMANDS
+
+if file is in the current working directory
+then filename else filepath e.g. "%userprofile%\\desktop\\new_dir\\filename.bat"
+
+TO DELETE A FILE
+system("del /f /q filename");
+erase /f /q filename
+
+TO DELETE A DIRECTORY
+system("rmdir "dir_name");
+
+TO PAUSE THE CONSOLE FOR SOME MOMENTS
+system("timeout /t 5");	//where /t specifies time & '5' is the no_of_sec to pause
+TO PAUSE CONSOLE UNTILL THE USER PRESSES ANY KEY
+system("pause");
+system("timeout /t -1");
+
+TO CLEAR THE CONSOLE SCREEN
+system("cls");
+
+TO CALL ANY PROGRAM OR A FILE FROM SOURCE_CODE_FILE
+ShellExecute(NULL,"open","file_name",NULL,NULL,SW_HIDE);	//SW_HIDE makes it to work in backgound
+
+TO SET FILE ATTRIBUTES
+ 	TO HIDE A FILE
+	system("attrib +h filename");
+	TO HIDE A FILE PERMANENTLY(LIKE SYSTEM FILES)
+	system("attrib +h +s filename");
+	TO UNHIDE A FILE
+	system("attrib -h filename");
+	TO UNHIDE A FILE(A SYSTEM FILE)
+	system("attrib -s -h filename");
+
+//REMEMBER: a file or a folder cant be deleted if attributes are +s +h 
+		if its a file then the content of that file cant be altered.
+
+TO PRODUCE SOUNDS OF DIFFERENT FREQUENCIES
+Beep(frequence,wavelength);
+eg. Beep(4900,210);
+
+OTHER FUNCTIONS CAN BE FOUND IN PROGRAM

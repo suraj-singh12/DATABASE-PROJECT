@@ -1,0 +1,7 @@
+In version 4.0.1
+
+during edit
+blood group : o-----
+weight 	    : 12 kg or 5 kg
+
+after changing class send to "admission date and dob"

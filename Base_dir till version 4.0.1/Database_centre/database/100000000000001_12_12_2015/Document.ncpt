@@ -1,0 +1,20 @@
+
+    |> Student's Name              :> A
+    |> Class                       :> 2
+    |> Section                     :> A
+    |> Roll Number                 :> 99
+    |> Father's Name               :> AABB
+    |> Mother's Name               :> AABB
+    |> Gender(M/F)                 :> Male
+    |> Blood Group                 :> AB-
+    |> Admission Number            :> 9900
+    |> Admission Date(DD/MM/YYYY)  :> 12/12/2019
+    |> Date of Birth(DD/MM/YYYY)   :> 12/12/2015
+    |> Address                     :> MERE GHAR KI KHETI
+    |> Category(SC/ST/OBC/GENERAL) :> GEN
+    |> Phone Number                :> 8765432198
+    |> Email ID                    :> ghanta
+    |> Height(in Centimeters)      :> 900 cm
+    |> Weight(in Kilograms)        :> 100 kg
+    |> Student's Unique ID         :> 100000000000001
+    |> BMI(Body Mass Index)        :> bmi (OBESE)
