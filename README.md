@@ -10,7 +10,5 @@ utilizing the various features of C++ and combining them with system scripts and
 <img style="width:80%; margin:15px; padding-bottom:10px;" src="sample_images/about.png" alt-text="about">
 <img style="width:80%; margin:15px; padding-bottom:10px;" src="sample_images/Advanced_options.png" alt-text="Advanced Options">
 
-## Developed in: 2018-2019
-
 ## Contributions
 Contributions are always welcome !!
